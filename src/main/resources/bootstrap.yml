@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-service
+  security:
+    user:
+      name: user
+      password: secret
+  cloud:
+    config:
+      enabled: true
+      server:
+        git:
+#          uri: ${HOME}/work_all/git_repo  https://github.com/senapatirupen/config.git
+          uri: https://github.com/senapatirupen/config.git
